@@ -11,7 +11,7 @@ const Hero = () => {
 
       <div className="container relative grid lg:grid-cols-2 gap-12 items-center">
         <div className="animate-fade-in">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gold/30 bg-gold/5 text-xs text-gold mb-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gold-deep/40 bg-gold/10 text-xs text-gold-deep font-medium mb-6">
             <Sparkles className="w-3.5 h-3.5" />
             <span>AI-Powered Card Recognition</span>
           </div>
