@@ -27,7 +27,7 @@ const Navbar = () => {
             <ScanLine className="w-5 h-5 text-[hsl(0_0%_8%)]" />
           </div>
           <span className="font-bold text-lg tracking-tight">
-            Mi-<span className="text-gradient-gold">Recall</span>
+            mi-<span className="text-gradient-gold">Recall</span>
           </span>
         </Link>
 
