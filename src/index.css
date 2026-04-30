@@ -8,34 +8,34 @@
 
 @layer base {
   :root {
-    /* Luxury Tech — dark base */
-    --background: 0 0% 10%;            /* #1A1A1A */
-    --foreground: 45 30% 96%;
+    /* Luxury Tech — warm white base */
+    --background: 40 40% 98%;          /* warm white */
+    --foreground: 30 15% 12%;
 
-    --card: 0 0% 13%;
-    --card-foreground: 45 30% 96%;
+    --card: 40 50% 99%;
+    --card-foreground: 30 15% 12%;
 
-    --popover: 0 0% 10%;
-    --popover-foreground: 45 30% 96%;
+    --popover: 40 40% 98%;
+    --popover-foreground: 30 15% 12%;
 
-    --primary: 51 100% 50%;            /* #FFD700 gold */
-    --primary-foreground: 0 0% 8%;
+    --primary: 43 80% 45%;             /* deep gold for contrast on light */
+    --primary-foreground: 40 50% 99%;
 
-    --secondary: 0 0% 16%;
-    --secondary-foreground: 45 30% 96%;
+    --secondary: 40 35% 94%;
+    --secondary-foreground: 30 15% 12%;
 
-    --muted: 0 0% 18%;
-    --muted-foreground: 45 10% 70%;
+    --muted: 40 30% 93%;
+    --muted-foreground: 30 10% 40%;
 
     --accent: 47 65% 81%;              /* #F3E5AB soft gold */
-    --accent-foreground: 0 0% 8%;
+    --accent-foreground: 30 15% 12%;
 
-    --destructive: 0 70% 55%;
+    --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 18%;
-    --ring: 51 100% 50%;
+    --border: 40 25% 88%;
+    --input: 40 25% 90%;
+    --ring: 43 80% 45%;
 
     --radius: 0.75rem;
 
@@ -44,9 +44,9 @@
     --gold-deep: 43 80% 45%;
 
     --gradient-gold: linear-gradient(135deg, hsl(51 100% 55%), hsl(43 80% 45%));
-    --gradient-hero: radial-gradient(ellipse at top, hsl(51 100% 50% / 0.18), transparent 60%), linear-gradient(180deg, hsl(0 0% 10%), hsl(0 0% 7%));
+    --gradient-hero: radial-gradient(ellipse at top, hsl(51 100% 60% / 0.25), transparent 60%), linear-gradient(180deg, hsl(40 50% 99%), hsl(40 35% 94%));
     --shadow-gold: 0 10px 40px -10px hsl(51 100% 50% / 0.45);
-    --shadow-elegant: 0 20px 60px -20px hsl(0 0% 0% / 0.6);
+    --shadow-elegant: 0 20px 60px -20px hsl(30 15% 20% / 0.18);
 
     --sidebar-background: 0 0% 98%;
 
