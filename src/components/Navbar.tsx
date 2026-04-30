@@ -23,11 +23,11 @@ const Navbar = () => {
     >
       <nav className="container flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2 group">
-          <div className="w-9 h-9 rounded-lg flex items-center justify-center bg-gradient-to-br from-gold to-gold-deep shadow-gold transition-transform group-hover:scale-110">
-            <ScanLine className="w-5 h-5 text-primary-foreground" />
+          <div className="w-9 h-9 rounded-lg flex items-center justify-center bg-gradient-to-br from-gold-bright to-gold shadow-gold transition-transform group-hover:scale-110">
+            <ScanLine className="w-5 h-5 text-[hsl(0_0%_8%)]" />
           </div>
           <span className="font-bold text-lg tracking-tight">
-            Card<span className="text-gradient-gold">Vault</span>
+            Mi-<span className="text-gradient-gold">Recall</span>
           </span>
         </Link>
 
