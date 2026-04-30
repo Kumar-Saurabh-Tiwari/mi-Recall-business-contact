@@ -42,8 +42,10 @@
     --gold: 40 75% 38%;          /* readable deep gold for text on light bg */
     --gold-soft: 47 65% 75%;
     --gold-deep: 35 85% 30%;     /* darker for max contrast */
+    --gold-bright: 51 100% 50%;  /* vibrant gold for buttons/gradients */
 
-    --gradient-gold: linear-gradient(135deg, hsl(43 85% 48%), hsl(35 85% 32%));
+    --gradient-gold: linear-gradient(135deg, hsl(51 100% 55%), hsl(43 90% 45%));
+    --gradient-button: linear-gradient(135deg, hsl(51 100% 55%), hsl(43 90% 45%));
     --gradient-hero: radial-gradient(ellipse at top, hsl(51 100% 60% / 0.25), transparent 60%), linear-gradient(180deg, hsl(40 50% 99%), hsl(40 35% 94%));
     --shadow-gold: 0 10px 40px -10px hsl(51 100% 50% / 0.45);
     --shadow-elegant: 0 20px 60px -20px hsl(30 15% 20% / 0.18);
